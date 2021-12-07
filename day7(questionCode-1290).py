@@ -4,14 +4,12 @@ class ListNode:
         self.next = next
 
 
-
 def toList(root):
     l = ""
-    while(root):
-        l+=str(root.val)
+    while root:
+        l += str(root.val)
         root = root.next
-    return int(l,2)
-
+    return int(l, 2)
 
 
 root = ListNode(1)
