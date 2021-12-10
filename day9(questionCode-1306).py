@@ -7,4 +7,7 @@ def canReach(A, i):
 A = [4,2,3,0,3,1,2]
 start = 5
 
+
+
+
 print(canReach(A,start))
